@@ -1,0 +1,274 @@
+* {
+    margin: 0;
+    /* padding:0; */
+    font-family: 'Inter', sans-serif;
+}
+.header{
+    background-image: url(/images/donation13.jpg);
+    background-repeat: no-repeat;
+    /* background-position: center center;  */
+    background-size:cover; 
+    width:100%;
+    height:667px;
+}
+.banner{
+    
+    text-align: center;
+    /* padding-top:  174px;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-bottom: 174px; */
+    padding: 174px 300px;
+    /* margin-top: 174px; */
+    
+}
+
+.btn-primary {
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 16px;
+    border: 0;
+    padding: 18px 35px;
+    height: 64px;
+    border-radius: 5px;
+    background: #FD6E0A;
+    cursor:pointer
+}
+hr{
+    color: #ccc8c8;
+    margin-bottom: 15px;
+}
+/* banner section styling */
+
+.banner-title {
+    font-weight: 700;
+    font-size: 65px;
+    color: #FFFFFF;
+    padding-bottom: 20px;
+}
+.banner-description{
+    font-size: 18px;
+    color: #e2cccc;
+    padding-bottom: 30px;
+
+}
+/* Donation info section */
+section{
+     margin-top: 130px; 
+}
+
+.donation-info-container{
+    text-align: center;
+    
+    padding:0 360px;
+}
+.donation-info-title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 50px;
+    
+}
+.donation-info-description{
+        color: #757575;
+        font-size: 18px;
+        margin-bottom: 30px;
+    
+}
+.donation-info-container ul{
+    /* background-color: #FAFAFA; */
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.donation-info-container li{
+    background: #FAFAFA;
+    border-radius: 5px;
+    list-style: none;
+    padding:20px; 
+    font-weight: 700;
+    font-size: 25px;
+    text-align: center;}
+.donation-info-container ul li:nth-child(2){
+    box-sizing: border-box;
+    background: #FFEEEE;
+    border: 2px solid #FF5959;
+    border-radius: 5px;
+}
+     /* /* margin-left: 568px;
+     margin-right: 568px; */
+
+.donation-info-amount{
+    font-weight: 400;
+    font-size: 18px;
+    color: #B3B3B3;
+    padding-bottom: 9px;
+    padding-top: 39px;
+}
+.donation-info-btn{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 20px;
+    border: 0;
+    padding: 18px 35px;
+    height: 64px;
+    border-radius: 5px;
+    background: #FD6E0A;
+    margin-top: 16px;
+}
+/* donate plan section */
+section{
+    margin-top: 130px; 
+}
+
+.donate-plan{
+   text-align: center;
+    padding:0 360px;
+    margin-top: 70px;
+}
+
+.donate-plan-writings{
+    text-align: center;
+}
+.donate-plan-title{
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+.donate-plan-description{
+    color: #6a6868;
+    font-size: 38px;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-right: 130;
+}
+.plan-box{
+    display: flex;
+    gap: 15px;
+    margin-bottom: 70px;
+}
+.box-img{
+    margin-bottom: 8px;
+}
+.box-title{
+    margin-bottom: 12px;
+    font-size: 20px;
+}
+.box-description{
+    color: #6a6868;
+    font-size: 17px;
+}
+.plan-box1 {
+    padding: 40px 25px;
+    background: aliceblue;
+}
+.plan-box2 {
+    padding: 40px 25px;
+    background: beige;
+}
+.plan-box3 {
+    padding: 40px 25px;
+    background:#e2cccc;
+}
+/* side image section */
+section{
+    margin-top: 130px; 
+}
+
+.side-image{
+   /* text-align: center; */
+    /* padding:0 360px; */
+    /* margin-top: 70px; */
+    display: flex;
+    gap: 15px;
+    margin-bottom: 150px;
+}
+
+    
+.img-title {
+  font-size: 40px;
+  margin-top: 35px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+.side-image{
+    margin-left: 100px;
+    width: 90%;
+}
+.right-img {
+    width: 100%;
+    height: 115%;
+}
+.img-description {
+    font-size: 17px;
+    color: #6a6868;
+    margin-bottom: 5px;
+    padding: 10px;
+}
+.side-image2 {
+    margin-right: 80px;
+    width: 90%;
+}
+/* contact section */
+section{
+    margin-top: 130px; 
+}
+
+.contact-section-plan{
+   text-align: center;
+    padding:0 360px;
+    margin-top: 70px;
+}
+.plan-writings{
+    text-align: center;
+}
+.plan-title{
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+.plan-description{
+    color: #6a6868;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-right: 130;
+}
+.email {
+    padding: 15px;
+    width: 250px;
+    background: #ddd;
+    font-size: 18px;
+    border: none;
+}
+.subscribe{
+        padding: 15px;
+        width: 180px;
+        background:#FD6E0A;
+        font-size: 18px;
+        color: white;
+        border: none;
+
+}
+.bg-color {
+    padding: 100px;
+    background-color: antiquewhite;
+}
+
+/* footer section */
+.footer {
+    margin-top: 130px;
+    background-color: #000013;
+    padding: 100px;
+}
+.footer-title{
+    color: #FD6E0A;
+    font-size: 33px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Pacifico', cursive;
+}
+.footer-description{
+    color: #6a6868;
+    text-align: center;
+}
